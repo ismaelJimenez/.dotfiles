@@ -5,7 +5,7 @@ CURRENT_DIR=$(pwd)
 
 cd $SCRIPT_DIR
 
-stowFolders=("zsh" "tmux")
+stowFolders=("zsh" "tmux" "lvim")
 
 for folder in ${stowFolders[@]}; do
   echo "Stow $folder"
