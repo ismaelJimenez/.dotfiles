@@ -13,3 +13,4 @@
 * [Lazygit](https://github.com/jesseduffield/lazygit)
 * [Fzf](https://github.com/junegunn/fzf#installation)
 * [Tmux](https://github.com/tmux/tmux/wiki/Installing)
+* [Tpm](https://github.com/tmux-plugins/tpm)
