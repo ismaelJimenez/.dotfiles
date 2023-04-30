@@ -124,3 +124,5 @@ setopt histignorespace
 setopt histignorealldups
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+eval "$(zoxide init zsh)"
