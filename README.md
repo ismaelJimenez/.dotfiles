@@ -12,3 +12,4 @@
 * [Powerlevel10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
 * [Lazygit](https://github.com/jesseduffield/lazygit)
 * [Fzf](https://github.com/junegunn/fzf#installation)
+* [Tmux](https://github.com/tmux/tmux/wiki/Installing)
