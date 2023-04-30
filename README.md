@@ -9,3 +9,7 @@
 * [Fontconfig](https://formulae.brew.sh/formula/fontconfig)
 * [Nerd Font](https://github.com/ronniedroid/getnf)
 * [Powerlevel10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
+
+## Recommended
+
+* [lazygit](https://github.com/jesseduffield/lazygit)
