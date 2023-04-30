@@ -5,7 +5,7 @@ addToPathFront() {
 }
 
 export XDG_CONFIG_HOME=$HOME/.config
-VIM="nvim"
+VIM="lvim"
 
 export EDITOR=$VIM
 export GIT_EDITOR=$VIM
@@ -17,13 +17,13 @@ tl() {
 }
 
 vim() {
-    nvim "$@"
+    lvim "$@"
 }
 
 se() {
-    nvim $(find -L * -path '*/\.*' -prune -o -type f -print -o -type l -print 2> /dev/null | fzf)
+    lvim $(find -L * -path '*/\.*' -prune -o -type f -print -o -type l -print 2> /dev/null | fzf)
 }
 
 sef() {
-    nvim $(find -L * -path '*/\.*' -prune -o -type f -print -o -type l -print 2> /dev/null | grep $1 | fzf)
+    lvim $(find -L * -path '*/\.*' -prune -o -type f -print -o -type l -print 2> /dev/null | grep $1 | fzf)
 }
