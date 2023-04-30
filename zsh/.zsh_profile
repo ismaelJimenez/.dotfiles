@@ -1,0 +1,29 @@
+addToPathFront() {
+    if [[ "$PATH" != *"$1"* ]]; then
+        export PATH=$1:$PATH
+    fi
+}
+
+export XDG_CONFIG_HOME=$HOME/.config
+VIM="nvim"
+
+export EDITOR=$VIM
+export GIT_EDITOR=$VIM
+
+addToPathFront $HOME/.local/bin
+
+tl() { 
+    lazygit
+}
+
+vim() {
+    nvim "$@"
+}
+
+se() {
+    nvim $(find -L * -path '*/\.*' -prune -o -type f -print -o -type l -print 2> /dev/null | fzf)
+}
+
+sef() {
+    nvim $(find -L * -path '*/\.*' -prune -o -type f -print -o -type l -print 2> /dev/null | grep $1 | fzf)
+}
