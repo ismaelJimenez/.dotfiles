@@ -11,3 +11,4 @@
 * [Zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
 * [Powerlevel10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
 * [Lazygit](https://github.com/jesseduffield/lazygit)
+* [Fzf](https://github.com/junegunn/fzf#installation)
