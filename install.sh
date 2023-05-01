@@ -5,6 +5,8 @@ CURRENT_DIR=$(pwd)
 
 cd $SCRIPT_DIR
 
+rm -rf $HOME/.config/lvim/config.lua
+
 stowFolders=("zsh" "tmux" "lvim")
 
 for folder in ${stowFolders[@]}; do
