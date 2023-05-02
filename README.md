@@ -13,6 +13,6 @@
 * [Zoxide](https://github.com/ajeetdsouza/zoxide)
 * [Powerlevel10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
 * [Lazygit](https://github.com/jesseduffield/lazygit)
-* [Fzf](https://github.com/junegunn/fzf#installation)
+* [Fzf](https://github.com/junegunn/fzf#installation): Install from GIT
 * [Tmux](https://github.com/tmux/tmux/wiki/Installing)
 * [Tpm](https://github.com/tmux-plugins/tpm)
