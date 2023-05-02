@@ -5,7 +5,7 @@ CURRENT_DIR=$(pwd)
 
 cd $SCRIPT_DIR
 
-rm -rf $HOME/.config/lvim/config.lua
+rm -rf $HOME/.config/lvim
 
 stowFolders=("zsh" "tmux" "lvim")
 
