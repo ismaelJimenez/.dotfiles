@@ -7,6 +7,7 @@ vim.keymap.set("i", "jk", "<Esc>")
 
 -- general
 lvim.log.level = "info"
+lvim.transparent_window = true
 -- to disable icons and use a minimalist setup, uncomment the following
 -- lvim.use_icons = false
 
