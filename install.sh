@@ -8,7 +8,7 @@ cd $SCRIPT_DIR
 rm -rf $HOME/.config/lvim
 rm -rf $HOME/.zshrc
 
-stowFolders=("zsh-common" "zsh" "tmux" "lvim")
+stowFolders=("zsh" "tmux" "lvim")
 
 for folder in ${stowFolders[@]}; do
   echo "Stow $folder"
