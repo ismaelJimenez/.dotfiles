@@ -6,6 +6,7 @@ CURRENT_DIR=$(pwd)
 cd $SCRIPT_DIR
 
 rm -rf $HOME/.config/lvim
+rm -rf $HOME/.zshrc
 
 stowFolders=("zsh-common" "zsh" "tmux" "lvim")
 

@@ -12,6 +12,7 @@ export GIT_EDITOR=$VIM
 
 addToPathFront $HOME/.local/bin
 addToPathFront $HOME/workspace/utils
+addToPathFront /workspaces/ddad/utils
 
 tl() { 
     lazygit
