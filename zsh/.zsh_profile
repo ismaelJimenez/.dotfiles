@@ -14,18 +14,21 @@ addToPathFront $HOME/.local/bin
 addToPathFront $HOME/workspace/utils
 addToPathFront /workspaces/ddad/utils
 
+export IDE="code"
+
+if type -p lvim &> /dev/null
+then
+    export IDE="lvim"
+fi
+
 tl() { 
     lazygit
 }
 
-vim() {
-    lvim "$@"
-}
-
 se() {
-    lvim $(find -L * -path '*/\.*' -prune -o -type f -print -o -type l -print 2> /dev/null | fzf)
+    $IDE $(find -L * -path '*/\.*' -prune -o -type f -print -o -type l -print 2> /dev/null | fzf)
 }
 
 sef() {
-    lvim $(find -L * -path '*/\.*' -prune -o -type f -print -o -type l -print 2> /dev/null | grep $1 | fzf)
+    $IDE $(find -L * -path '*/\.*' -prune -o -type f -print -o -type l -print 2> /dev/null | grep $1 | fzf)
 }
