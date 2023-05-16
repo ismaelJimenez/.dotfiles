@@ -126,3 +126,7 @@ setopt histignorealldups
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 eval "$(zoxide init zsh)"
+
+# Configure Zsh data folder
+# HISTFILE=${ZDOTDIR:-$HOME}/workspace/config/.zsh_history
+# export _ZO_DATA_DIR=${ZDOTDIR:-$HOME}/workspace/config
