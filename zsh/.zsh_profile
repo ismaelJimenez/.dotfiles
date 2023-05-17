@@ -5,10 +5,6 @@ addToPathFront() {
 }
 
 export XDG_CONFIG_HOME=$HOME/.config
-VIM="lvim"
-
-export EDITOR=$VIM
-export GIT_EDITOR=$VIM
 
 addToPathFront $HOME/.local/bin
 addToPathFront $HOME/workspace/utils
@@ -20,6 +16,9 @@ if type -p lvim &> /dev/null
 then
     export IDE="lvim"
 fi
+
+export EDITOR=$IDE
+export GIT_EDITOR=$IDE
 
 tl() { 
     lazygit
